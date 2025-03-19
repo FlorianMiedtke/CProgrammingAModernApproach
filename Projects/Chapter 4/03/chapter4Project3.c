@@ -4,14 +4,10 @@
 
 int main(void)
 {
-    int num;
+    int firstDigit, middleDigit, lastDigit;
 
     printf("Enter a three-digit number: ");
-    scanf("%d", &num);
-
-    int firstDigit = num / 10 / 10;
-    int middleDigit = num / 10 % 10;
-    int lastDigit = num % 10;
+    scanf("%1d%1d%1d", &firstDigit, &middleDigit, &lastDigit);
 
     printf("The reversal is: %d%d%d\n", lastDigit, middleDigit, firstDigit);
 
