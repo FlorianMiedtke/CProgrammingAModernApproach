@@ -25,10 +25,10 @@ Which solves as follows:
 ```
 ((0 >= 1) <= 10)
 
-//Result:
+//Step 1
 0 <= 10
 
-//Result:
+//Step 2
 1
 ```
 Since 0 >= 1 solves as 0, and 0 <= 10 solves as 1, the if statement would tell us, that 0 is between 1 and 10, which is wrong.
