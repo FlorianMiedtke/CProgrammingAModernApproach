@@ -11,7 +11,7 @@ If so, what does it do when n is equal to 0?
 
 ### Answer
 
-It is legal. But it does not check if n is between 1 and 10.
+The statement is legal. But it does not check if n is between 1 and 10.
 
 Lets use the example n = 0 from the exercise. We now have:
 ```
