@@ -11,6 +11,11 @@ int main(void)
 
     firstDigit = numericalGrade/10;
 
+    if(numericalGrade < 0 || numericalGrade > 100) {
+        printf("Illegal grade.\n");
+        return 0;
+    }
+
     switch(firstDigit)
     {
         case 10:
